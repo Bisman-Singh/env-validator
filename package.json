@@ -1,0 +1,24 @@
+{
+  "name": "env-validator",
+  "version": "1.0.0",
+  "description": "CLI tool that validates .env files against a JSON schema",
+  "main": "dist/index.js",
+  "bin": {
+    "env-validator": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["env", "validator", "dotenv", "schema", "cli"],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2"
+  }
+}
