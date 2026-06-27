@@ -67,3 +67,5 @@ npx env-validator --env .env.production --schema my-schema.json
 | `pattern`     | string  | Regex pattern to validate against    |
 
 
+
+<sub><sup>Originally developed and tested locally during learning. Later organized and pushed to GitHub for portfolio visibility.</sup></sub>
